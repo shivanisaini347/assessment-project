@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Cricket</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+            <section id="nav-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="ba.jpg" ></a>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </nav>
+             </section>
+
+        <div id="content" style="text-align: center;">
+           <form>
+              <button  id="newM" class="but1" onclick="currentMatch()">CURRENT MATCHES</button><br><br>
+              <button  id="oldM" class="but1" onclick="oldMatch()">OLD MATCHES</button><br><br>
+              <button  id="cricSc" class="but1" onclick="matchCal()">MATCH CALENDER</button><br><br>
+              <button  id="cricSc" class="but1" onclick="enterTheMatchCode()">MATCH SCORE</button><br><br>
+              <button  id="p" class="but1"><a href="#modal">PLAYERS</a></button><br><br>
+            </form>
+        </div>
+       
+        <div id="modal">
+                <form >
+                <input type="text" id="search" placeholder="Enter Player ID">
+                <button value="Player" id="player" onclick="enterTheCode()">Search</button><br><br>
+                </form>
+        </div>
+       
+       <center>        
+            <div id="container">
+             
+            </div>
+        </center>
+        
+    
+    
+        <script src="jQ.js"></script>
+    </body>
+</html>

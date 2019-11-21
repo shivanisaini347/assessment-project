@@ -1,0 +1,95 @@
+body{
+    background-image: url(cricket.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
+#firstbut{
+    width: 10%;
+    height: 8%;
+	padding:12px 30px;
+	border-radius:0;
+    font-size: 16px;
+    color:#ffffff;
+    margin-top: 25px;
+    margin-left: 1250px;
+    font-weight:400; 
+	background-color:lightgray;
+	border:1px solid transparent;
+	letter-spacing:.5px;
+	cursor: pointer;
+    transition:all .5s ease;
+    z-index: 3;
+}
+#firstbut:hover{
+    border:2px solid #3965E1;
+    color:#DB2B23;
+    background-color:transparent;
+}
+.container{
+    position: absolute;
+    transform: translate(-2%, 2%);
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.container span{
+    color: #DB2B23;
+    cursor: pointer;
+    font-size: 40px;
+    display: block;
+    text-transform: uppercase;
+    z-index: 3;
+}
+.text1{
+    margin-bottom: 15px;
+    position: relative;
+    animation: text 3s 1;
+    text-shadow: 0 3px 2px #ccc;
+}
+.text2{
+    text-shadow: 0 3px 2px #ccc;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.35);
+    padding: 30px;
+    border-radius: 50px; 
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 750px;
+    height:120px
+}
+footer li{
+    float: left;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+
+#left{
+    width: 50%;
+    height: 7%;
+}
+#right{
+    width: 30%;
+    margin-left: 900px;
+}
+h4{
+     margin-left: 70px !important; 
+     margin-top: -20px;
+}
+@keyframes text{
+    0%{
+        color: #DB2B23;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+
